@@ -1,0 +1,19 @@
+# مكتبات نود جي إس (بتترّكب تلقائيًا عبر npm install أو دوكر)
+node_modules/
+**/node_modules/
+
+# ملفات البيئة (كلمات سر، مفاتيح API - لا ترفع أبدًا)
+.env
+**/.env
+
+# مجلد بناء رياكت (بيترّكب تلقائيًا وقت docker build)
+client/build/
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# سجلات
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
